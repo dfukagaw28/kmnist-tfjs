@@ -10,7 +10,7 @@
   "dependencies": {
     "@tensorflow/tfjs": "^1.2.2",
     "core-js": "^2.6.5",
-    "csv-parse": "^4.4.3",
+    "csv-parse": "^4.4.6",
     "rollup": ">=0.60.0",
     "seedrandom": "~2.4.3",
     "vue": "^2.6.10",
