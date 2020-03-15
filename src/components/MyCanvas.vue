@@ -22,7 +22,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="candidate in candidates">
+          <tr v-for="(candidate,key) in candidates" :key="key">
             <td>{{ candidate.char }}</td>
             <td>{{ candidate.weight }}</td>
           </tr>
